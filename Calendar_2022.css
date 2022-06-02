@@ -1,0 +1,61 @@
+@page{
+  size: A3 portrait;
+  margin: 0;
+}
+body{
+  height: 420mm;
+  width: 297mm;
+	box-sizing: border-box;
+  margin: 20px;
+  font-family: "kawaii手書き文字";
+  -webkit-print-color-adjust: exact;
+}
+.top-side{
+  height: 170mm;
+  width: 100%;
+}
+.bottom-side{
+  background-color: #ccffff;
+  height: calc(420mm - 180mm);
+}
+.calendar-container{
+  margin: 10px auto;
+  padding: 20px;
+  width: 100%;
+  color: #666;
+  display: flex;
+  flex-wrap: wrap;
+}
+table{
+  box-sizing: border-box;
+  height: 150px;
+  width: 27%;
+  margin: 35px;
+  padding: 5px 20px;
+}
+tr{
+  text-align: center;
+}
+th{
+  line-height: 5px;
+  font-size: 15px;
+}
+td{
+  line-height: 10px;
+  font-size: 22px;
+}
+.month{
+  font-size: 40px;
+  display: inline-block;
+  line-height: 150px;
+  width: 1px;
+  position: relative;
+  left: 25px;
+}
+.kanachan{
+  height: 20px;
+  width: 20px;
+}
+.double{
+  font-size: 13px;
+}
